@@ -1,0 +1,37 @@
+{
+  "name": "ssb-crut-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test:js && npm run lint",
+    "test:js": "tape 'test/**/*.test.js' | tap-spec",
+    "lint": "standard --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mixmix/ssb-crut-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mixmix/ssb-crut-demo/issues"
+  },
+  "homepage": "https://github.com/mixmix/ssb-crut-demo#readme",
+  "dependencies": {
+    "@tangle/overwrite": "^2.0.2",
+    "@tangle/simple-set": "^2.0.0",
+    "ssb-crut": "^3.2.1",
+    "ssb-crut-authors": "^2.0.4"
+  },
+  "devDependencies": {
+    "scuttle-testbot": "^1.8.0",
+    "ssb-backlinks": "^2.1.1",
+    "ssb-query": "^2.4.5",
+    "ssb-tribes": "^2.7.2",
+    "standard": "^16.0.4",
+    "tap-spec": "^5.0.0",
+    "tape": "^5.3.1"
+  }
+}
